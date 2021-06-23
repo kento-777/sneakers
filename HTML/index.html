@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ja-JP">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../CSS/style.css">
+  <link type="text/css" rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/cupertino/jquery-ui.min.css" />
+  <title>Sneakers模写</title>
+</head>
+<body>
+  <header>
+    <div class="header__wrapper">
+      <div class="header__logo"><a href="#"><img src="../img/logo.svg" alt="Sneakers"></a></div>
+      <div id="humberger--js" class="header__humberger">
+        <span id="bar-top--js" class="header__bar header__bar-top"></span>
+        <span id="bar-middle--js" class="header__bar header__bar-middle"></span>
+        <span id="bar-bottom--js" class="header__bar header__bar-bottom"></span>
+      </div>
+    </div>
+    <div id="mask--js" class="header__mask">
+      <div id="mask-wrapper--js" class="header__wrapper-mask off">
+        <nav>
+          <ul class="header__humberger-menu">
+            <li class="header__menu-item"><a class="header__menu-link" href="#">PICK UP</a></li>
+            <li class="header__menu-item"><a class="header__menu-link" href="#">FEATURE</a></li>
+            <li class="header__menu-item"><a class="header__menu-link" href="#">CONTACT</a></li>
+          </ul>
+          <ul class="header__contact">
+            <li class="header__menu-item"><a class="header__menu-link" href="https://twitter.com/vXP8OfzbSOiWhlj">Twitter</a></li>
+            <li class="header__menu-item"><a class="header__menu-link" href="https://www.facebook.com/campaign/landing.php?campaign_id=1665596389&extra_1=s%7Cc%7C321610682049%7Ce%7Cfacebook%7C&placement=&creative=321610682049&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D1665596389%26adgroupid%3D65075436220%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-541132862%26loc_physical_ms%3D1009355%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=Cj0KCQjwh_eFBhDZARIsALHjIKeqG5j3GQ3eNxv6EIr3sG0Ck7t9n1WLog27jZSpMxfAzKs-30mBwcUaAi4XEALw_wcB">facebook</a></li>
+            <li class="header__menu-item"><a class="header__menu-link" href="https://www.instagram.com/tomoaki_tennis/">instagram</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="main__head-video">
+      <video src="../img/IMG_0497.MP4" loop autoplay muted playsinline></video>
+    </div>
+    <div class="pickup">
+      <h2 class="pickup__logo">PICK UP</h2>
+      <div class="pickup__wrap">
+        <ul id="jquery-ui-draggable" class="pickup__products">
+          <li class="pickup__item"><img src="../img/pickup1.jpg" alt="1"></li>
+          <li class="pickup__item"><img src="../img/pickup2.jpg" alt="2"></li>
+          <li class="pickup__item"><img src="../img/pickup3.jpg" alt="3"></li>
+          <li class="pickup__item"><img src="../img/pickup4.jpg" alt="4"></li>
+          <li class="pickup__item"><img src="../img/pickup5.jpg" alt="5"></li>
+          <li class="pickup__item"><img src="../img/pickup6.jpg" alt="6"></li>
+          <li class="pickup__item"><img src="../img/pickup7.jpg" alt="7"></li>
+          <li class="pickup__item"><img src="../img/pickup8.jpg" alt="8"></li>
+          <li class="pickup__item"><img src="../img/pickup9.jpg" alt="9"></li>
+        </ul>
+        <ul id="jquery-ui-draggable" class="pickup__products">
+          <li class="pickup__item"><img src="../img/pickup1.jpg" alt="1"></li>
+          <li class="pickup__item"><img src="../img/pickup2.jpg" alt="2"></li>
+          <li class="pickup__item"><img src="../img/pickup3.jpg" alt="3"></li>
+          <li class="pickup__item"><img src="../img/pickup4.jpg" alt="4"></li>
+          <li class="pickup__item"><img src="../img/pickup5.jpg" alt="5"></li>
+          <li class="pickup__item"><img src="../img/pickup6.jpg" alt="6"></li>
+          <li class="pickup__item"><img src="../img/pickup7.jpg" alt="7"></li>
+          <li class="pickup__item"><img src="../img/pickup8.jpg" alt="8"></li>
+          <li class="pickup__item"><img src="../img/pickup9.jpg" alt="9"></li>
+        </ul>
+      </div>
+    </div>
+    <div class="feature">
+      <h2 class="feature__logo">FEATURE</h2>
+      <div class="feature__wrap">
+        <ul>
+          <li class="feature__contents">
+            <div class="feature__content-img"><img src="../img/feature1.jpg" alt="1"></div>
+            <div class="feature__content-descriptions">
+              <div class="feature__category">category</div>
+              <div class="feature__txt">テキストテキストテキストテキストテキストテキストテキストテキスト</div> 
+              <div class="feature__date">XXXX.XX.XX</div>             
+            </div>
+          </li>
+          <li class="feature__contents">
+            <div class="feature__content-img"><img src="../img/feature2.jpg" alt="2"></div>
+            <div class="feature__content-descriptions">
+              <div class="feature__category">category</div>
+              <div class="feature__txt">テキストテキストテキストテキストテキストテキストテキストテキスト</div> 
+              <div class="feature__date">XXXX.XX.XX</div>             
+            </div>
+          </li>
+          <li class="feature__contents">
+            <div class="feature__content-img"><img src="../img/feature3.jpg" alt="3"></div>
+            <div class="feature__content-descriptions">
+              <div class="feature__category">category</div>
+              <div class="feature__txt">テキストテキストテキストテキストテキストテキストテキストテキスト</div> 
+              <div class="feature__date">XXXX.XX.XX</div>             
+            </div>
+          </li>
+          <li class="feature__contents">
+            <div class="feature__content-img"><img src="../img/feature4.jpg" alt="4"></div>
+            <div class="feature__content-descriptions">
+              <div class="feature__category">category</div>
+              <div class="feature__txt">テキストテキストテキストテキストテキストテキストテキストテキスト</div> 
+              <div class="feature__date">XXXX.XX.XX</div>             
+            </div>
+          </li>
+          <li class="feature__contents">
+            <div class="feature__content-img"><img src="../img/feature5.jpg" alt="5"></div>
+            <div class="feature__content-descriptions">
+              <div class="feature__category">category</div>
+              <div class="feature__txt">テキストテキストテキストテキストテキストテキストテキストテキスト</div> 
+              <div class="feature__date">XXXX.XX.XX</div>             
+            </div>
+          </li>
+          <li class="feature__contents">
+            <div class="feature__content-img"><img src="../img/feature6.jpg" alt="6"></div>
+            <div class="feature__content-descriptions">
+              <div class="feature__category">category</div>
+              <div class="feature__txt">テキストテキストテキストテキストテキストテキストテキストテキスト</div> 
+              <div class="feature__date">XXXX.XX.XX</div>             
+            </div>
+          </li>
+          <li class="feature__contents">
+            <div class="feature__content-img"><img src="../img/feature7.jpg" alt="7"></div>
+            <div class="feature__content-descriptions">
+              <div class="feature__category">category</div>
+              <div class="feature__txt">テキストテキストテキストテキストテキストテキストテキストテキスト</div> 
+              <div class="feature__date">XXXX.XX.XX</div>             
+            </div>
+          </li>
+          <li class="feature__contents">
+            <div class="feature__content-img"><img src="../img/feature8.jpg" alt="8"></div>
+            <div class="feature__content-descriptions">
+              <div class="feature__category">category</div>
+              <div class="feature__txt">テキストテキストテキストテキストテキストテキストテキストテキスト</div> 
+              <div class="feature__date">XXXX.XX.XX</div>             
+            </div>
+          </li>
+          <li class="feature__contents">
+            <div class="feature__content-img"><img src="../img/feature9.jpg" alt="9"></div>
+            <div class="feature__content-descriptions">
+              <div class="feature__category">category</div>
+              <div class="feature__txt">テキストテキストテキストテキストテキストテキストテキストテキスト</div> 
+              <div class="feature__date">XXXX.XX.XX</div>             
+            </div>
+          </li>
+        </ul> 
+      </div>
+    </div>
+  </main>
+
+
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
+  <script src="../JS/main.js"></script>   
+</body>
+</html>

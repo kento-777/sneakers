@@ -1,0 +1,21 @@
+main {
+  padding-top: 86px;
+}
+
+.main {
+  &__head-video {
+    video {
+      object-fit: fill;
+      width: 100%;
+    }
+  }
+}
+
+.pickup {
+  @import "../pages/pickup";
+}
+
+.feature {
+  @import "../pages/feature";
+}  
+

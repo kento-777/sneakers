@@ -1,0 +1,139 @@
+@import "../mixin/wrapper";
+
+header {
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+}
+
+.header {
+  &__wrapper {
+    @include wrapper();
+    justify-content: space-between;
+    padding: 22px 40px;
+  }  
+
+  &__logo {
+    width: 180px;
+    height: 25px;
+    img {
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+    }  
+  }
+
+  /*ハンバーガーボタン*/
+  &__humberger {
+     display: block;
+     position: fixed;
+     z-index: 99;
+     right: 0;
+     top: 0;
+     width: 42px;
+     height: 42px;
+     cursor: pointer;
+     text-align: center;
+     position: relative;
+  }
+
+  &__bar {
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    right: 6px;
+    background: #555;
+    transition: .3s ease-in-out;
+    
+    &-top {
+      top: 10px;
+    }
+    &-middle {
+      top: 20px;
+    }
+    &-bottom {
+      top: 30px;
+    }
+  }   
+   
+  &__wrapper-mask {
+    display: block;
+    position: fixed;
+    top: 70px;
+    left: -500px;
+    margin: 0;
+  }
+
+  &__menu-item {
+    margin: 0 20px;
+    padding: 10px 0;
+  }
+
+  &__menu-link {
+    padding: 30px 0;
+    font-size: 14px;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      opacity: 0.5;
+      transition: all 0.3s ease-in-out;
+    }
+  } 
+
+  &__humberger-menu {
+    padding-top: 30px;
+    li {
+      padding: 20px 0;
+      border-top: solid 1px #fff;
+    &:last-child {
+      border-bottom: 1px solid #fff;
+      }
+    }
+  }
+
+  &__contact {
+    padding-top: 40px;
+    li {
+      padding-top: 0;
+    }
+  }
+}
+
+/*ハンバーガーを開いたとき*/
+.active-top {
+  transform: translate(0, 10px) rotate(405deg);
+  transition: transform 0.5s;
+}
+.active-middle {
+  display: none;
+  transition: transform 0.5s;
+}
+.active-bottom {
+  transform: translate(0, -10px) rotate(-405deg);
+  transition: transform 0.5s;
+}
+.open {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba($color: #000000, $alpha: 0.8);
+  z-index: 100;
+}
+
+.on {
+  display: block;
+  position: fixed;
+  top: 0;
+  width: 300px;
+  height: 100%;
+  background: rgba($color: #121212, $alpha: 1);
+  z-index: 110;
+  opacity: 1;
+}
+
