@@ -22,9 +22,9 @@ $(function(){
       $(".header__bar").css("background", "#000");
     }
   });
-
-//pickupの自動スクロール
-  $('#jquery-ui-draggable').draggable({
-    axis: 'x',
+  $('#multiple-items').slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1
   });
 });

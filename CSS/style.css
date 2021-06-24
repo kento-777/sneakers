@@ -18,6 +18,10 @@ body {
   min-height: 100vh;
 }
 
+.slick-slide {
+  object-fit: fill;
+}
+
 /*ヘッダー*/
 header {
   width: 100%;
@@ -185,36 +189,10 @@ main {
   font-size: 36px;
 }
 
-.pickup .pickup__wrap {
-  display: flex;
-  align-items: center;
-  height: 340px;
-  overflow: hidden;
-}
-
-.pickup .pickup__products {
-  display: flex;
-  animation: loop-slide 20s infinite linear 1s both;
-}
-
-@keyframes loop-slide {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-100%);
-  }
-}
-
-.pickup .pickup__item {
-  padding: 0 60px;
-  width: 360px;
-  height: 240px;
-}
-
 .pickup .pickup__item img {
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  object-fit: fill;
+  margin: 0 auto;
 }
 
 .feature .feature__logo {
@@ -228,13 +206,15 @@ main {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
+  padding: 0 20px;
   justify-content: center;
+  max-width: 1240px;
 }
 
 .feature .feature__contents {
   box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.5);
-  width: 28%;
-  margin: 20px;
+  width: 30%;
+  margin: 15px;
 }
 
 .feature .feature__content-img {
@@ -334,5 +314,13 @@ footer {
 .footer__right {
   font-size: 12px;
   padding-top: 20px;
+}
+
+/*レスポンシブ*/
+@media screen and (max-width: 900px) {
+  .feature__wrap ul {
+    display: block;
+    justify-content: start;
+  }
 }
 /*# sourceMappingURL=style.css.map */

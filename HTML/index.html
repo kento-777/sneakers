@@ -5,7 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../CSS/style.css">
-  <link type="text/css" rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/cupertino/jquery-ui.min.css" />
+  <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css"/>
   <title>Sneakers模写</title>
 </head>
 <body>
@@ -42,28 +43,17 @@
     <div id="pickup" class="pickup">
       <h2 class="pickup__logo">PICK UP</h2>
       <div class="pickup__wrap">
-        <ul id="jquery-ui-draggable" class="pickup__products">
-          <li class="pickup__item"><img src="../img/IMG_0003.JPG" alt="1"></li>
-          <li class="pickup__item"><img src="../img/IMG_1102.JPG" alt="2"></li>
-          <li class="pickup__item"><img src="../img/pickup3.jpg" alt="3"></li>
-          <li class="pickup__item"><img src="../img/pickup4.jpg" alt="4"></li>
-          <li class="pickup__item"><img src="../img/pickup5.jpg" alt="5"></li>
-          <li class="pickup__item"><img src="../img/IMG_1376.JPG" alt="6"></li>
-          <li class="pickup__item"><img src="../img/IMG_1403.PNG" alt="7"></li>
-          <li class="pickup__item"><img src="../img/IMG_1387.PNG" alt="8"></li>
-          <li class="pickup__item"><img src="../img/IMG_1376.JPG" alt="9"></li>
-        </ul>
-        <ul id="jquery-ui-draggable" class="pickup__products">
-          <li class="pickup__item"><img src="../img/pickup1.jpg" alt="1"></li>
-          <li class="pickup__item"><img src="../img/pickup2.jpg" alt="2"></li>
-          <li class="pickup__item"><img src="../img/pickup3.jpg" alt="3"></li>
-          <li class="pickup__item"><img src="../img/pickup4.jpg" alt="4"></li>
-          <li class="pickup__item"><img src="../img/pickup5.jpg" alt="5"></li>
-          <li class="pickup__item"><img src="../img/pickup6.jpg" alt="6"></li>
-          <li class="pickup__item"><img src="../img/pickup7.jpg" alt="7"></li>
-          <li class="pickup__item"><img src="../img/pickup8.jpg" alt="8"></li>
-          <li class="pickup__item"><img src="../img/pickup9.jpg" alt="9"></li>
-        </ul>
+        <div id="multiple-items" class="pickup__products">
+          <div class="pickup__item"><img src="../img/pickup1.jpg"></div>
+          <div class="pickup__item"><img src="../img/pickup1.jpg"></div>
+          <div class="pickup__item"><img src="../img/pickup1.jpg"></div>
+          <div class="pickup__item"><img src="../img/pickup1.jpg"></div>
+          <div class="pickup__item"><img src="../img/pickup1.jpg"></div>
+          <div class="pickup__item"><img src="../img/pickup1.jpg"></div>
+          <div class="pickup__item"><img src="../img/pickup1.jpg"></div>
+          <div class="pickup__item"><img src="../img/pickup1.jpg"></div>
+          <div class="pickup__item"><img src="../img/pickup1.jpg"></div>
+        </div>
       </div>
     </div>
     <div id="feature" class="feature">
@@ -181,7 +171,7 @@
     </div>
   </footer>
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-  <script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
-  <script src="../JS/main.js"></script>   
+  <script type="text/javascript" src="./slick/slick.min.js"></script>
+  <script type="text/javascript" src="../JS/main.js"></script>
 </body>
 </html>
