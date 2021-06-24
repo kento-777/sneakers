@@ -22,9 +22,9 @@
       <div id="mask-wrapper--js" class="header__wrapper-mask off">
         <nav>
           <ul class="header__humberger-menu">
-            <li class="header__menu-item"><a class="header__menu-link" href="#">PICK UP</a></li>
-            <li class="header__menu-item"><a class="header__menu-link" href="#">FEATURE</a></li>
-            <li class="header__menu-item"><a class="header__menu-link" href="#">CONTACT</a></li>
+            <li class="header__menu-item"><a class="header__menu-link" href="#pickup">PICK UP</a></li>
+            <li class="header__menu-item"><a class="header__menu-link" href="#feature">FEATURE</a></li>
+            <li class="header__menu-item"><a class="header__menu-link" href="#contact">CONTACT</a></li>
           </ul>
           <ul class="header__contact">
             <li class="header__menu-item"><a class="header__menu-link" href="https://twitter.com/vXP8OfzbSOiWhlj">Twitter</a></li>
@@ -39,19 +39,19 @@
     <div class="main__head-video">
       <video src="../img/IMG_0497.MP4" loop autoplay muted playsinline></video>
     </div>
-    <div class="pickup">
+    <div id="pickup" class="pickup">
       <h2 class="pickup__logo">PICK UP</h2>
       <div class="pickup__wrap">
         <ul id="jquery-ui-draggable" class="pickup__products">
-          <li class="pickup__item"><img src="../img/pickup1.jpg" alt="1"></li>
-          <li class="pickup__item"><img src="../img/pickup2.jpg" alt="2"></li>
+          <li class="pickup__item"><img src="../img/IMG_0003.JPG" alt="1"></li>
+          <li class="pickup__item"><img src="../img/IMG_1102.JPG" alt="2"></li>
           <li class="pickup__item"><img src="../img/pickup3.jpg" alt="3"></li>
           <li class="pickup__item"><img src="../img/pickup4.jpg" alt="4"></li>
           <li class="pickup__item"><img src="../img/pickup5.jpg" alt="5"></li>
-          <li class="pickup__item"><img src="../img/pickup6.jpg" alt="6"></li>
-          <li class="pickup__item"><img src="../img/pickup7.jpg" alt="7"></li>
-          <li class="pickup__item"><img src="../img/pickup8.jpg" alt="8"></li>
-          <li class="pickup__item"><img src="../img/pickup9.jpg" alt="9"></li>
+          <li class="pickup__item"><img src="../img/IMG_1376.JPG" alt="6"></li>
+          <li class="pickup__item"><img src="../img/IMG_1403.PNG" alt="7"></li>
+          <li class="pickup__item"><img src="../img/IMG_1387.PNG" alt="8"></li>
+          <li class="pickup__item"><img src="../img/IMG_1376.JPG" alt="9"></li>
         </ul>
         <ul id="jquery-ui-draggable" class="pickup__products">
           <li class="pickup__item"><img src="../img/pickup1.jpg" alt="1"></li>
@@ -66,7 +66,7 @@
         </ul>
       </div>
     </div>
-    <div class="feature">
+    <div id="feature" class="feature">
       <h2 class="feature__logo">FEATURE</h2>
       <div class="feature__wrap">
         <ul>
@@ -146,8 +146,40 @@
       </div>
     </div>
   </main>
-
-
+  <footer id="contact">
+    <div class="footer__wrap">
+      <div class="footer__logo"><h2>CONTACT</h2></div>
+      <div class="footer__form">
+        <div class="footer__txt">
+          <p>テキストテキストテキスト</p>
+          <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテ
+            キストテキストテキストテキストテキストテキストテキストテキストテキストテキ
+            ストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+          <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテ
+            キストテキストテキストテキストテキストテキストテキストテキストテキストテキ
+            ストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+        </div>
+        <div class="footer__contact">
+          <form action="">
+            <label class="footer__contact-name">
+              <p>Name:</p>
+              <input type="text">
+            </label>
+            <label class="footer__contact-mail">
+              <p>Mail:</p>
+              <input type="email">
+            </label>
+            <label class="footer__contact-message">
+              <p>Message:</p>
+              <textarea></textarea>
+            </label>
+            <button class="footer__submit-btn" type="submit" autofocus>SEND</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer__right">© Sneakers</div>
+    </div>
+  </footer>
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
   <script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
   <script src="../JS/main.js"></script>   

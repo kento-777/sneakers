@@ -1,7 +1,7 @@
 
 $(function(){
   
-  $('#humberger--js').on("click",function() {
+  $('#humberger--js, .header__menu-link').on("click",function() {
     //ハンバーガーボタンの変形
     $(this).css('z-index','110')
     $('#bar-top--js').toggleClass("active-top");

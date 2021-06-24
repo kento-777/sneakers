@@ -1,0 +1,73 @@
+footer {
+  height: 600px;
+}
+
+.footer {
+  &__wrap {
+    height: 100%;
+    background-color: #000;
+    color: #fff;
+  }
+
+  &__logo {
+    text-align: center;
+    padding: 40px 0 20px 0;
+    h2 {
+      margin: 0;
+      font-size: 40px;
+    }
+  }
+
+  &__form {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__txt {
+    width: 40%;
+    padding: 20px;
+    p {
+      
+      margin: 0 0 20px 0;
+    }
+
+  }
+
+  &__contact {
+    width: 40%;
+    padding: 20px;
+    p {
+      margin: 0;
+      padding-top: 20px;
+    }
+    input {
+      width: 95%;
+      height: 40px;
+    }
+  }
+  &__contact-message {
+    textarea {
+      width: 95%;
+      height: 80px;
+    }
+  }
+  &__right {
+    text-align: center;
+  }
+
+  &__submit-btn {
+    margin-top: 20px;
+    width: 30%;
+    height: 50px;
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #fff;
+    cursor: pointer;
+  }
+
+  &__right {
+    font-size: 12px;
+    padding-top: 20px;
+    
+  }
+}
