@@ -1,14 +1,39 @@
-@media screen and(max-width: 1000px) {
-  
-}
 
-@media screen and(max-width: 900px) {
+@media screen and(max-width: 940px) {
   .feature {
     &__wrap {
       ul {
-        display: block;
-        justify-content: start;
+        .feature__contents {
+          width: 45%;
+        }
       }
+    }
+  }
+}
+
+@media screen and(max-width: 640px) {
+  .feature {
+    &__wrap {
+      ul {
+        .feature__contents {
+          width: 90%;
+        }
+      }
+    }
+  }
+
+  .footer {
+    &__form {
+      flex-flow: column;
+    }
+
+    &__txt {
+      width: 90%;
+    }
+
+    &__contact {
+      width: 98%;
+      align-items: center;
     }
   }
 

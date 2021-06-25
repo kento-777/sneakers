@@ -248,7 +248,6 @@ footer {
 }
 
 .footer__wrap {
-  height: 100%;
   background-color: #000;
   color: #fff;
 }
@@ -317,10 +316,25 @@ footer {
 }
 
 /*レスポンシブ*/
-@media screen and (max-width: 900px) {
-  .feature__wrap ul {
-    display: block;
-    justify-content: start;
+@media screen and (max-width: 940px) {
+  .feature__wrap ul .feature__contents {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .feature__wrap ul .feature__contents {
+    width: 90%;
+  }
+  .footer__form {
+    flex-flow: column;
+  }
+  .footer__txt {
+    width: 90%;
+  }
+  .footer__contact {
+    width: 98%;
+    align-items: center;
   }
 }
 /*# sourceMappingURL=style.css.map */
