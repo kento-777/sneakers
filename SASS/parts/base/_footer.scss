@@ -34,7 +34,6 @@ footer {
 
   &__contact {
     width: 40%;
-    padding: 20px;
     p {
       margin: 0;
       padding-top: 20px;
@@ -69,4 +68,8 @@ footer {
     padding-top: 20px;
     
   }
+}
+
+form {
+  padding: 20px;
 }

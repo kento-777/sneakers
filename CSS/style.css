@@ -223,6 +223,7 @@ main {
 
 .feature .feature__content-img img {
   width: 100%;
+  animation: fadeIn 3s ease 0s 1 normal;
 }
 
 .feature .feature__category {
@@ -240,6 +241,15 @@ main {
   font-size: 10px;
   text-align: right;
   padding: 30px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /*フッター*/
@@ -278,7 +288,6 @@ footer {
 
 .footer__contact {
   width: 40%;
-  padding: 20px;
 }
 
 .footer__contact p {
@@ -313,6 +322,10 @@ footer {
 .footer__right {
   font-size: 12px;
   padding-top: 20px;
+}
+
+form {
+  padding: 20px;
 }
 
 /*レスポンシブ*/
