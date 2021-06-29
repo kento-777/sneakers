@@ -23,6 +23,12 @@
   }
 
   .footer {
+    &__logo {
+      h2 {
+        font-size: 30px;
+      }
+    }
+    
     &__form {
       flex-flow: column;
     }
@@ -34,8 +40,15 @@
     &__contact {
       width: 98%;
       align-items: center;
+      input, textarea {
+        width: 100%;
+      }
+    }
+
+    &__submit-btn {
+      width: 100%;
     }
   }
-
+  
 }
 

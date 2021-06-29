@@ -38,9 +38,8 @@ header {
 .header__wrapper {
   display: flex;
   margin: 0 auto;
-  max-width: 1280px;
   justify-content: space-between;
-  padding: 22px 40px;
+  margin: 22px 40px;
 }
 
 .header__logo {
@@ -339,6 +338,9 @@ form {
   .feature__wrap ul .feature__contents {
     width: 90%;
   }
+  .footer__logo h2 {
+    font-size: 30px;
+  }
   .footer__form {
     flex-flow: column;
   }
@@ -348,6 +350,12 @@ form {
   .footer__contact {
     width: 98%;
     align-items: center;
+  }
+  .footer__contact input, .footer__contact textarea {
+    width: 100%;
+  }
+  .footer__submit-btn {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -12,7 +12,7 @@ header {
   &__wrapper {
     @include wrapper();
     justify-content: space-between;
-    padding: 22px 40px;
+    margin: 22px 40px;
   }  
 
   &__logo {
