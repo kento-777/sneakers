@@ -4,7 +4,7 @@ $(function(){
    // スクロール時のイベント
    $(window).scroll(function() {
     // fadeinクラスに対して順に処理を行う
-    $('.feature__content-img').each(function() {
+    $('.fadein').each(function() {
       // スクロールした距離
       let scroll = $(window).scrollTop();
       // fadeinクラスの要素までの距離

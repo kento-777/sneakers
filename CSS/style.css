@@ -222,7 +222,8 @@ main {
 
 .feature .feature__content-img img {
   width: 100%;
-  animation: fadeIn 3s ease 0s 1 normal;
+  opacity: 0;
+  transition: all 3s;
 }
 
 .feature .feature__category {
